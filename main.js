@@ -6,6 +6,6 @@ const selectElement = function (element) {
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
 
-menuToggler.addEventListner('click', function() {
+menuToggler.addEventListner('click', function () {
     body.classList.toggle('open');
 });

@@ -29,6 +29,11 @@ section {
   max-width: 100%;
 }
 
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
 }
