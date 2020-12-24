@@ -6,7 +6,7 @@ A mobile first responsive restaurant (The Indian) website with animations in css
 
 # website
 
-![](images\display-image.jpg)
+![](images/display-image.jpg)
 
 # Technologies used
 
