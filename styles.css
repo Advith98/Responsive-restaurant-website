@@ -662,3 +662,16 @@ footer {
     transform: translateY(-1rem);
   }
 }
+
+/* Menu page  */
+
+.hero-menu{
+  width: 100%;
+  background: url(./images/hero-menu.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.breakfast {
+  background: url("./images/breakfast.jpg") center no-repeat;
+  background-size: cover;
+}
