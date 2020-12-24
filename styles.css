@@ -675,3 +675,29 @@ footer {
   background: url("./images/breakfast.jpg") center no-repeat;
   background-size: cover;
 }
+
+.bf {
+  display: grid;
+  grid-template-columns: repeat(2, .8fr);
+  grid-gap: 1.5rem;
+  max-width: 720px;
+}
+
+.bf > div{
+  text-align: center;
+  font-family: var(--body-font);
+  color: var(--body-font-color);
+  font-size: 2rem;
+}
+
+.menu-center{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media screen and (min-width: 800px){
+  
+  .menu-center{
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
