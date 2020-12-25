@@ -382,6 +382,7 @@ header {
 /* Footer  */
 footer {
   padding: 7.5rem;
+  padding-bottom: 12rem;
   background-color: #121212;
   color: #fff;
   text-align: center;
@@ -447,7 +448,7 @@ footer {
 .social-icons i {
   font-size: 2rem;
   color: #fff;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1.5rem;
   opacity: 0.7;
   transition: color 0.5s;
 }
@@ -468,6 +469,7 @@ footer {
   width: 100%;
   max-width: 22rem;
   padding: 1rem;
+  margin-bottom: 2rem;
   border-radius: 0.4rem;
 }
 
@@ -565,6 +567,10 @@ footer {
     padding-right: 7rem;
   }
 
+  footer {
+    padding-bottom: 2.5rem;
+  }
+  
   .footer-content {
     max-width: 77.5rem;
     margin: auto;
@@ -654,7 +660,7 @@ footer {
   0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 1;
   }
   100% {
@@ -665,7 +671,7 @@ footer {
 
 /* Menu page  */
 
-.hero-menu{
+.hero-menu {
   width: 100%;
   background: url(./images/hero-menu.jpg) center no-repeat;
   background-size: cover;
@@ -678,25 +684,24 @@ footer {
 
 .bf {
   display: grid;
-  grid-template-columns: repeat(2, .8fr);
+  grid-template-columns: repeat(2, 0.8fr);
   grid-gap: 1.5rem;
   max-width: 720px;
 }
 
-.bf > div{
+.bf > div {
   text-align: center;
   font-family: var(--body-font);
   color: var(--body-font-color);
   font-size: 2rem;
 }
 
-.menu-center{
+.menu-center {
   padding-left: 10%;
   padding-right: 10%;
 }
-@media screen and (min-width: 800px){
-  
-  .menu-center{
+@media screen and (min-width: 800px) {
+  .menu-center {
     padding-left: 25%;
     padding-right: 25%;
   }
