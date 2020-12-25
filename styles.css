@@ -570,7 +570,7 @@ footer {
   footer {
     padding-bottom: 2.5rem;
   }
-  
+
   .footer-content {
     max-width: 77.5rem;
     margin: auto;
@@ -700,9 +700,30 @@ footer {
   padding-left: 10%;
   padding-right: 10%;
 }
+
 @media screen and (min-width: 800px) {
   .menu-center {
     padding-left: 25%;
     padding-right: 25%;
   }
+}
+
+.sweets{
+  background: url("./images/sweets.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.meals{
+  background: url("./images/meals.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.manchurian{
+  background: url("./images/manchurian.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.Snacks{
+  background: url("./images/snacks.jpg") center no-repeat;
+  background-size: cover;
 }
