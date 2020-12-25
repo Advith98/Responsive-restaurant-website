@@ -708,22 +708,45 @@ footer {
   }
 }
 
-.sweets{
+.sweets {
   background: url("./images/sweets.jpg") center no-repeat;
   background-size: cover;
 }
 
-.meals{
+.meals {
   background: url("./images/meals.jpg") center no-repeat;
   background-size: cover;
 }
 
-.manchurian{
+.manchurian {
   background: url("./images/manchurian.jpg") center no-repeat;
   background-size: cover;
 }
 
-.Snacks{
+.Snacks {
   background: url("./images/snacks.jpg") center no-repeat;
   background-size: cover;
+}
+
+/* Reservation page  */
+
+.hero-reserve {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/reservation.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.reserv {
+  background: url("./images/reserve.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.reserv > div {
+  padding: 3rem 0;
+  max-width: 100%;
+  overflow: hidden;
 }
