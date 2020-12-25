@@ -486,6 +486,17 @@ footer {
   margin-left: 10.5rem;
 }
 
+
+.contact-no h3{
+  font-family: var(--body-font);
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+
+.contact-no a{
+  color: #fff;
+}
+
 /* Responsive */
 @media screen and (min-width: 900px) {
   section {
